@@ -1,0 +1,23 @@
+object PrintFrm: TPrintFrm
+  Left = 447
+  Height = 457
+  Top = 235
+  Width = 1018
+  Caption = 'PrintFrm'
+  ClientHeight = 457
+  ClientWidth = 1018
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  WindowState = wsFullScreen
+  object frPreview1: TfrPreview
+    Left = 0
+    Height = 457
+    Top = 0
+    Width = 1018
+    Align = alClient
+    BevelOuter = bvLowered
+    Caption = 'frPreview1'
+    TabOrder = 0
+    ScrollBars = ssBoth
+  end
+end

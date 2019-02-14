@@ -1,0 +1,22 @@
+object msgfrm: Tmsgfrm
+  Left = 289
+  Height = 90
+  Top = 335
+  Width = 666
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  ClientHeight = 90
+  ClientWidth = 666
+  DesignTimePPI = 75
+  Position = poDesktopCenter
+  LCLVersion = '1.8.2.0'
+  object label1: TStaticText
+    Left = 0
+    Height = 21
+    Top = 35
+    Width = 664
+    Alignment = taCenter
+    Caption = 'label1'
+    TabOrder = 0
+  end
+end
